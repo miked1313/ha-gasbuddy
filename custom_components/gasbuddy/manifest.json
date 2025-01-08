@@ -1,9 +1,9 @@
 {
     "domain": "gasbuddy",
     "name": "GasBuddy",
-    "codeowners": ["@firstof9"],
+    "codeowners": ["@miked1313"],
     "config_flow": true,
-    "documentation": "https://github.com/firstof9/ha-gasbuddy",
+    "documentation": "https://github.com/miked1313/ha-gasbuddy",
     "import_executor": true,
     "iot_class": "cloud_polling",
     "issue_tracker": "https://github.com/firstof9/ha-gasbuddy/issues",
