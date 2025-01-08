@@ -118,7 +118,7 @@ class GasBuddySensor(
         credit = self.coordinator.data[self._type]["credit"]
         attrs = {}
         attrs[ATTR_ATTRIBUTION] = f"{credit} via GasBuddy"
-        attrs["last_updated"] = self.coordinator.data[self._type]["last_updated"]
+        attrs["last_updated_gb"] = self.coordinator.data[self._type]["last_updated"]
         attrs[CONF_STATION_ID] = self.coordinator.data[CONF_STATION_ID]
         if self._config.data[CONF_GPS]:
             attrs[ATTR_LATITUDE] = self.coordinator.data[ATTR_LATITUDE]
